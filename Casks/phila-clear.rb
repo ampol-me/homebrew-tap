@@ -1,6 +1,6 @@
 cask "phila-clear" do
   version "1.1"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "cf5803e052c0e344695c182e911e0250f243a9219de0392247dd393675a45226"
 
   url "https://clear.phila.in.th/downloads/PhilaClear-#{version}.dmg"
   name "Phila Clear"
@@ -15,7 +15,7 @@ cask "phila-clear" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Phila Clear.app"
 
